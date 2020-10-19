@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.4;
+    background-color: #fefefe;
+}
+
+.kodak {
+	font-size: 70px;
+ background: -webkit-linear-gradient(#fbf74f, #bb1625, #060807);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+ }
+
+ .kodak:hover {
+ background: -webkit-radial-gradient(#40ff00, #7d81ff, #00ed8a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ } 
+
+.film {
+  background-color: #ffd300;
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+}
+
+.film:hover {
+	cursor: pointer;
+  background: linear-gradient(270deg, #ff00f5, #ffd736, #f2a4ff, #6bf51d, #06e854);
+  background-size: 1000% 1000%;
+
+  -webkit-animation: slideBackground 2s ease infinite;
+  -moz-animation: slideBackground 2s ease infinite;
+  animation: slideBackground 2s ease infinite;
+
+}
+
+ @-webkit-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes slideBackground {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+ .negatives:hover {
+ background: -webkit-radial-gradient(#000000,#c5b7b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+ }
+
+ .negatives {
+ 	cursor: url(../imgs/negativefilm.png), auto;
+ }
+
+.imgfilters 
+img {
+  margin-top: 60px;
+transition: all 0.5s ease;
+}
+
+
+.imgfilters 
+  img:hover {
+   -webkit-transform: rotate(-360deg) scale(2);
+  transform: rotate(-360deg) scale(2);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
